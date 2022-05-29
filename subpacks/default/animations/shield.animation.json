@@ -1,0 +1,131 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.shield.wield_main_hand_first_person": {
+      "loop": true,
+      "bones": {
+        "shield": {
+          "position": [
+            "v.main_hand_first_person_pos_x",
+            "v.main_hand_first_person_pos_y",
+            "v.main_hand_first_person_pos_z"
+          ],
+          "rotation": [
+            "v.main_hand_first_person_rot_x",
+            "v.main_hand_first_person_rot_y",
+            "v.main_hand_first_person_rot_z"
+          ],
+          "scale": 0.95
+        }
+      }
+    },
+    "animation.shield.wield_off_hand_first_person": {
+      "loop": true,
+      "bones": {
+        "shield": {
+          "position": [
+            "v.off_hand_first_person_pos_x",
+            "v.off_hand_first_person_pos_y",
+            "v.off_hand_first_person_pos_z"
+          ],
+          "rotation": [
+            "v.off_hand_first_person_rot_x",
+            "v.off_hand_first_person_rot_y",
+            "v.off_hand_first_person_rot_z"
+          ],
+          "scale": [
+            -1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "animation.shield.wield_main_hand_first_person_blocking": {
+      "loop": "hold_on_last_frame",
+      "bones": {
+        "shield": {
+          "position": {
+            "0": [
+              "v.main_hand_first_person_pos_x",
+              "v.main_hand_first_person_pos_y",
+              "v.main_hand_first_person_pos_z"
+            ],
+            "0.15": [
+              "v.main_hand_first_person_pos_x - 1 * (q.get_equipped_item_name(1) != 'shield')",
+              "v.main_hand_first_person_pos_y - 2.5 * (q.get_equipped_item_name(1) != 'shield')",
+              "v.main_hand_first_person_pos_z + 0.5 * (q.get_equipped_item_name(1) != 'shield')"
+            ]
+          },
+          "rotation": {
+            "0.0": [
+              "v.main_hand_first_person_rot_x",
+              "v.main_hand_first_person_rot_y",
+              "v.main_hand_first_person_rot_z"
+            ],
+            "0.08": [
+              "v.main_hand_first_person_rot_x",
+              "v.main_hand_first_person_rot_y - 12.0 * (q.get_equipped_item_name(1) != 'shield')",
+              "v.main_hand_first_person_rot_z"
+            ]
+          },
+          "scale": 0.95
+        }
+      }
+    },
+    "animation.shield.wield_off_hand_first_person_blocking": {
+      "loop": "hold_on_last_frame",
+      "bones": {
+        "shield": {
+          "position": {
+            "0": [
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_pos_x : v.off_hand_first_person_pos_x",
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_pos_y : v.off_hand_first_person_pos_y",
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_pos_z : v.off_hand_first_person_pos_z"
+            ],
+            "0.15": [
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_pos_x : v.off_hand_first_person_pos_x + 0.5",
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_pos_y : v.off_hand_first_person_pos_y + 1.5",
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_pos_z : v.off_hand_first_person_pos_z + 1.5"
+            ]
+          },
+          "rotation": {
+            "0": [
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_rot_x : v.off_hand_first_person_rot_x",
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_rot_y : v.off_hand_first_person_rot_y",
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_rot_z : v.off_hand_first_person_rot_z"
+            ],
+            "0.08": [
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_rot_x : v.off_hand_first_person_rot_x",
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_rot_y : v.off_hand_first_person_rot_y",
+              "c.item_slot == 'main_hand' ? v.main_hand_first_person_rot_z :v.off_hand_first_person_rot_z + 10.0"
+            ]
+          },
+          "scale": "c.item_slot=='main_hand' ? 0.95 : 1"
+        }
+      }
+    },
+    "animation.shield.wield_third_person": {
+      "loop": true,
+      "bones": {
+        "shield": {
+          "position": [
+            -1,
+            9.0,
+            -16.5
+          ],
+          "rotation": [
+            -90.0,
+            0.0,
+            90.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            "c.item_slot == 'main_hand' ? -1.0 : 1.0"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.bo.wield": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"animations": [
+						{
+							"wield_passive": "q.main_hand_item_use_duration == 0"
+						}
+					],
+					"transitions": [
+						{
+							"pull": "q.main_hand_item_use_duration > 0"
+						}
+					]
+				},
+				"pull": {
+					"animations": [
+						{
+							"wield_pull": "q.main_hand_item_use_duration > 0"
+						},
+						{
+							"wield_first_person_pull": "c.is_first_person"
+						},
+						{
+							"wield_first_person_pull_pos": "c.is_first_person"
+						},
+						{
+							"wield_first_person_pull_rot": "c.is_first_person"
+						},
+						{
+							"wield_first_person_pull_scale": "c.is_first_person"
+						}
+					],
+					"transitions": [
+						{
+							"default": "q.main_hand_item_use_duration == 0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

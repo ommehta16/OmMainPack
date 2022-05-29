@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.spyglass.holding": {
+      "loop": true,
+      "bones": {
+        "spyglass": {
+          "position": [
+            "c.is_first_person ? (c.item_slot == 'main_hand' ? -6.0 : 4) : 1.25",
+            "c.is_first_person ? (c.item_slot == 'main_hand' ? 20.0 : 12) : 20.25",
+            "c.is_first_person ? (c.item_slot == 'main_hand' ? -6.0 : -6) : -6.0"
+          ],
+          "rotation": [
+            "c.is_first_person ? (c.item_slot == 'main_hand' ? 0.0 : -60) : 0.0",
+            "c.is_first_person ? (c.item_slot == 'main_hand' ? -30.0 : -35) : -90.0",
+            "c.is_first_person ? (c.item_slot == 'main_hand' ? -50.0 : -30) : 0.0"
+          ],
+          "scale": [
+            "c.is_first_person ? (query.get_equipped_item_name(0) == 'filled_map' ? 0 :-1.15) : -1",
+            "c.is_first_person ? (query.get_equipped_item_name(0) == 'filled_map' ? 0 : 1.15) : 1",
+            "c.is_first_person ? (query.get_equipped_item_name(0) == 'filled_map' ? 0 : 1.15) : 1"
+          ]
+        }
+      }
+    },
+    "animation.spyglass.scoping": {
+      "loop": true,
+      "bones": {
+        "spyglass": {
+          "position": [
+            "c.is_first_person ? 0 : c.item_slot != 'off_hand' ? -1.0 : 1",
+            "c.is_first_person ? 0 : c.item_slot != 'off_hand' ? 27.0 : 20",
+            "c.is_first_person ? 0 : c.item_slot != 'off_hand' ? -3.0 : -6"
+          ],
+          "rotation": [
+            "c.is_first_person ? 0 : c.item_slot != 'off_hand' ? 0.0 : 0",
+            "c.is_first_person ? 0 : c.item_slot != 'off_hand' ? -90 : 90.0",
+            "c.is_first_person ? 0 : c.item_slot != 'off_hand' ? 0.0 : 0"
+          ],
+          "scale": [
+            1,
+            1,
+            "c.item_slot != 'off_hand' ? this : -1"
+          ]
+        }
+      }
+    }
+  }
+}

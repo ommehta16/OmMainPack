@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.crossbow.wield": {
+      "loop": true,
+      "bones": {  
+        "rightitem": {
+          "position": [ 
+            "(1 - 6.0 * !q.item_is_charged) * (1 - 2 * (c.item_slot == 'off_hand'))",
+            1.5,
+            -1.0
+          ],
+          "rotation": [
+            0,
+            0,
+            "15.0 * !q.item_is_charged * (1 - 1.65 * (c.item_slot == 'off_hand'))"
+          ]
+        }
+      }
+    },
+    "animation.crossbow.wield_first_person_charge": {
+      "loop": true,
+      "bones": {  
+        "rightitem": {
+          "position": [18,10,2],
+          "rotation": [-5,60,-50]
+        }
+      }
+    },
+    "animation.crossbow.wield_first_person": {
+      "loop": true,
+      "bones": {  
+        "rightitem": {
+          "position": [ 
+            "v.is_charged_middle ? 16 : 6.0",
+            "v.is_charged_middle ? 10 : 12",
+            "v.is_charged_middle ? -14 : 2"
+          ],
+          "rotation": [
+            "v.is_charged_middle ? -15 : 10",
+            "v.is_charged_middle ? 60 : 60",
+            "v.is_charged_middle ? -45 : -30"
+          ],
+          "scale": "0.9 + 0.3 * v.is_charged_middle"
+        }
+      }
+    }
+  }
+}

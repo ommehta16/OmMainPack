@@ -1,0 +1,63 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:attachable": {
+    "description": {
+      "identifier": "minecraft:bow",
+      "materials": {
+        "default": "entity_alphatest",
+        "enchanted": "entity_alphatest_glint"
+      },
+      "textures": {
+        "default": "textures/items/bow_standby",
+        "bow_pulling_0": "textures/items/bow_pulling_0",
+        "bow_pulling_1": "textures/items/bow_pulling_1",
+        "bow_pulling_2": "textures/items/bow_pulling_2",
+        "enchanted": "textures/misc/enchanted_item_glint"
+      },
+      "geometry": {
+        "default": "geometry.bow_standby",
+        "bow_pulling_0": "geometry.bow_pulling_0",
+        "bow_pulling_1": "geometry.bow_pulling_1",
+        "bow_pulling_2": "geometry.bow_pulling_2"
+      },
+      "animations": {
+        "wield": "animation.bow.wield",
+        "wield_first_person_pull": "animation.bow.wield_first_person_pull",
+        "wield_first_person_pull_pos": "animation.bow.wield_first_person_pull_pos",
+        "wield_first_person_pull_rot": "animation.bow.wield_first_person_pull_rot",
+        "wield_first_person_pull_scale": "animation.bow.wield_first_person_pull_scale"
+      },
+      "scripts": {
+        "initialize": [
+          "v.charge_time = 1;"
+        ],
+        "pre_animation": [
+          //Charge Amount
+          "variable.charge_amount = math.clamp((query.main_hand_item_max_duration - (query.main_hand_item_use_duration - query.frame_alpha + 1.0)) / 20.0, 0.0, 1.0f);",
+          //Shake
+          "variable.shake_x = (math.clamp(0.01 * (query.main_hand_item_max_duration - query.main_hand_item_use_duration), -1, 1)) * ((math.clamp(0.01 * (query.main_hand_item_max_duration - 2 * (query.main_hand_item_use_duration + 1)), -1, 1)) * math.sin(q.life_time * 1000.0 * 1.3 * 1.2) * 0.05 - math.sin(q.life_time * 90.0) * 0.25);",
+          "variable.shake_y = (math.clamp(0.01 * (query.main_hand_item_max_duration - query.main_hand_item_use_duration), -1, 1)) * ((math.clamp(0.01 * (query.main_hand_item_max_duration - 2 * (query.main_hand_item_use_duration + 1)), -1, 1)) * math.sin(q.life_time * 1000.0 * 1.3 * 1.2) * 0.15 - math.sin(q.life_time * 90.0) * 0.5);",
+          "variable.shake_z = (math.clamp(0.01 * (query.main_hand_item_max_duration - query.main_hand_item_use_duration), -1, 1)) * ((math.clamp(0.01 * (query.main_hand_item_max_duration - 2 * (query.main_hand_item_use_duration + 1)), -1, 1)) * math.sin(q.life_time * 1000.0 * 1.3 * 1.2) * 0.01 - math.sin(q.life_time * 90.0) * 0.01);",
+          //Diff. Charge
+          "variable.charge_time = (q.item_remaining_use_duration > 0.1 ? v.charge_time + query.delta_time : 0);"
+        ],
+        "animate": [
+          "wield",
+          {
+            "wield_first_person_pull": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"
+          },
+          {
+            "wield_first_person_pull_pos": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"
+          },
+          {
+            "wield_first_person_pull_rot": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"
+          },
+          {
+            "wield_first_person_pull_scale": "query.main_hand_item_use_duration > 0.0f && c.is_first_person"
+          }
+        ]
+      },
+      "render_controllers": [ "controller.render.bow" ]
+    }
+  }
+}

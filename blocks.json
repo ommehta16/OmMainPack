@@ -1,0 +1,187 @@
+{
+   "waxed_exposed_copper": {
+       "textures": "exposed_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": "waxed_exposed_copper"
+   },
+   "waxed_weathered_cut_copper_slab": {
+       "textures": "weathered_cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": {
+           "side": "waxed_weathered_copper_double1",
+           "up": "waxed_weathered_cut_copper",
+           "down": "waxed_weathered_cut_copper"
+       }
+   },
+   "waxed_oxidized_cut_copper_stairs": {
+       "textures": "oxidized_cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": {
+           "east": "waxed_oxidized_copper_stairs2",
+           "south": "waxed_oxidized_copper_double1",
+           "north": "waxed_oxidized_cut_copper",
+           "west": "waxed_oxidized_copper_stairs1",
+           "up": "waxed_oxidized_copper_double1",
+           "down": "waxed_oxidized_copper_double2"
+       }
+   },
+   "waxed_copper": {
+       "textures": "copper_block",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": "waxed_copper_block"
+   },
+   "monster_egg": {
+       "textures": "monster_egg",
+       "carried_textures": "infested_blocks"
+   },
+   "waxed_oxidized_cut_copper_slab": {
+       "textures": "oxidized_cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": {
+           "side": "waxed_oxidized_copper_double1",
+           "up": "waxed_oxidized_cut_copper",
+           "down": "waxed_oxidized_cut_copper"
+       }
+   },
+   "waxed_cut_copper": {
+       "textures": "cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": "waxed_cut_copper"
+   },
+   "sticky_piston": {
+       "textures": {
+           "down": "piston_bottom",
+           "side": "piston_side_sticky",
+           "up": "piston_bottom"
+       },
+       "sound": "stone",
+       "carried_textures": {
+           "down": "piston_bottom",
+           "side": "piston_side_sticky",
+           "up": "piston_top_sticky"
+       }
+   },
+   "stickyPistonArmCollision" : {
+    "textures" : "piston_top_sticky"
+ },
+   "infested_deepslate": {
+       "isotropic": {
+           "up": true,
+           "down": true
+       },
+       "sound": "deepslate",
+       "carried_textures": {
+           "side": "infested_deepslate",
+           "up": "infested_deepslate_top",
+           "down": "infested_deepslate_top"
+       }
+   },
+   "waxed_oxidized_copper": {
+       "textures": "oxidized_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": "waxed_oxidized_copper"
+   },
+   "waxed_cut_copper_slab": {
+       "textures": "cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": {
+           "side": "waxed_copper_double1",
+           "up": "waxed_cut_copper",
+           "down": "waxed_cut_copper"
+       }
+   },
+   "waxed_exposed_cut_copper_slab": {
+       "textures": "exposed_cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": {
+           "side": "waxed_exposed_copper_double1",
+           "up": "waxed_exposed_cut_copper",
+           "down": "waxed_exposed_cut_copper"
+       }
+   },
+   "waxed_cut_copper_stairs": {
+       "textures": "cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": {
+           "east": "waxed_copper_stairs2",
+           "south": "waxed_copper_double1",
+           "north": "waxed_cut_copper",
+           "west": "waxed_copper_stairs1",
+           "up": "waxed_copper_double1",
+           "down": "waxed_copper_double2"
+       }
+   },
+   "waxed_exposed_cut_copper_stairs": {
+       "textures": "exposed_cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": {
+           "east": "waxed_exposed_copper_stairs2",
+           "south": "waxed_exposed_copper_double1",
+           "north": "waxed_exposed_cut_copper",
+           "west": "waxed_exposed_copper_stairs1",
+           "up": "waxed_exposed_copper_double1",
+           "down": "waxed_exposed_copper_double2"
+       }
+   },
+   "format_version": [
+       1,
+       1,
+       0
+   ],
+   "waxed_weathered_copper": {
+       "textures": "weathered_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": "waxed_weathered_copper"
+   },
+   "waxed_weathered_cut_copper": {
+       "textures": "weathered_cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": "waxed_weathered_cut_copper"
+   },
+   "soul_campfire": {
+       "textures": {
+           "side": "soul_campfire_log_lit",
+           "up": "soul_campfire_fire",
+           "down": "soul_campfire_log"
+       },
+       "sound": "wood"
+   },
+   "waxed_exposed_cut_copper": {
+       "textures": "exposed_cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": "waxed_exposed_cut_copper"
+   },
+   "waxed_weathered_cut_copper_stairs": {
+       "textures": "weathered_cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": {
+           "east": "waxed_weathered_copper_stairs2",
+           "south": "waxed_weathered_copper_double1",
+           "north": "waxed_weathered_cut_copper",
+           "west": "waxed_weathered_copper_stairs1",
+           "up": "waxed_weathered_copper_double1",
+           "down": "waxed_weathered_copper_double2"
+       }
+   },
+   "waxed_oxidized_cut_copper": {
+       "textures": "oxidized_cut_copper",
+       "isotropic": false,
+       "sound": "copper",
+       "carried_textures": "waxed_oxidized_cut_copper"
+   }
+}

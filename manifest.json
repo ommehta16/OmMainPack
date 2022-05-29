@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Changelog in README.md",
+    "name": "Om's Main Pack",
+    "uuid": "700dc383-3b63-4b54-8911-7d512b077234",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "description": "Changelog in README.md",
+      "type": "resources",
+      "uuid": "6c8b9fa3-6b8d-40fe-b1bf-f3c0998fb9c6",
+      "version": [1, 0, 0]
+    }
+  ],
+  "settings": [
+    {
+      "type": "label",
+      "text": "Left-handed makes the player left-handed. Right-handed makes the player right-handed. How surprising."
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "lefthand",
+      "name": "Left-handed",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "default",
+      "name": "Right-handed",
+      "memory_tier": 1
+    }
+  ]
+}
