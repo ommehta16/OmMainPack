@@ -1,5 +1,6 @@
-
-*List of changes:*
+*Attributions:*
+ - Using(edited) version of third person holding animations from Agent Mindstorm()
+*Changelog:*
  - Made pack
 **1.0.1 and before:**
  - Better enchantment glint on many many items(similar to Java, not pixel-by pixel on item)
