@@ -116,3 +116,7 @@
  - Made the 3rd person holding animation more similar to Java edition
  - Made certain items no longer float over the player's hand
  - Conduits are now data-driven, so don't appear way off the right of the screen
+
+ **2.3:**
+ - Fixed the bow animation, to now mostly match Java Edition
+ - Refactored a lot of code
