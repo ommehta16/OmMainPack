@@ -1,0 +1,13 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+		"animation.offhand_slot.wield": {
+			"loop": true,
+			"bones": {
+				"offhand_slot": {
+          "position": [1,1,1]
+				}
+			}
+		}
+  }
+}

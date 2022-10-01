@@ -1,0 +1,49 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.bow.wield": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            "c.is_first_person ? (q.main_hand_item_use_duration > 0.0f ? -5.5 : -7.8536)",
+            "c.is_first_person ? (q.main_hand_item_use_duration > 0.0f ? -2.5 : 1.6522) : -2.5",
+            "c.is_first_person ? (q.main_hand_item_use_duration > 0.0f ? -3.0 : -6.6692) : -3.5"
+          ],
+          "rotation": [
+            "c.is_first_person ? (q.main_hand_item_use_duration > 0.0f ? 38.0 : 215.5)",
+            "c.is_first_person ? (q.main_hand_item_use_duration > 0.0f ? -120.0 : -61) : -15",
+            "c.is_first_person ? (q.main_hand_item_use_duration > 0.0f ? -63.0 : -240.2)"
+          ],
+          "scale": [
+            "c.is_first_person ? (q.main_hand_item_use_duration > 0.0f ? 0.9 : 0.66) : 0.9",
+            "c.is_first_person ? (q.main_hand_item_use_duration > 0.0f ? 0.9 : 0.66) : 0.9",
+            "c.is_first_person ? (q.main_hand_item_use_duration > 0.0f ? 0.9 : 0.66) : -0.9"
+          ]
+        }
+      }
+    },
+    "animation.bow.wield_first_person_pull": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [
+            "1.5 * (1-v.charge_amount) * (1-math.pow(v.charge_amount,2)) -0.5*v.shake",
+            "-1.75-v.shake",
+            -3
+          ],
+          "rotation": [
+            -37.0,
+            "7.0 - 2 * (1-v.charge_amount) * (1-math.pow(v.charge_amount,2))",
+            "19.0 + 3 * (1-v.charge_amount) * (1-math.pow(v.charge_amount,2))"
+          ],
+          "scale": [
+            1.35,
+            "0.95 + 0.1 * v.pull_snap/3 + 0.3 * math.pow(math.clamp(v.charge_amount-0.1,0,1),0.8)",
+            1.35
+          ]
+        }
+      }
+    }
+  }
+}

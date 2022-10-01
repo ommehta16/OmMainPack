@@ -1,20 +1,12 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.8.0",
   "animations": {
     "animation.conduit.wield_main_hand_first_person": {
       "loop": true,
       "bones": {
         "conduit": {
-          "position": [
-            0,
-            20,
-            4
-          ],
-          "rotation":[
-            -50,
-            55,
-            -10
-          ],
+          "position": [ 0, 20, 4],
+          "rotation":[ -60, 55, -5],
           "scale": 1.2
         }
       }
@@ -23,16 +15,8 @@
       "loop": true,
       "bones": {
         "conduit": {
-          "position": [
-            0,
-            19,
-            -4
-          ],
-          "rotation": [
-            30,
-            45,
-            20
-          ],
+          "position": [ 0, 19, -4],
+          "rotation": [ 30, 45, 20],
           "scale": 0.7
         }
       }

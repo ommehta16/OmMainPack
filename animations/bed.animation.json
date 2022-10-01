@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+		"animation.bed.wield_main_hand_first_person": {
+			"loop": true,
+			"bones": {
+				"bed": {
+					"rotation": [97.2221, 201.27019, -208.14366],
+					"position": [-4.13677, 31.37933, -0.47441],
+					"scale": "0.4*0"
+				}
+			}
+		},
+    "animation.bed.wield_third_person": {
+      "loop": true,
+      "bones": {
+        "bed": {
+					"rotation": [110, -90, -145],
+          "position": [0, 0, -20],
+          "scale": 3
+        }
+      }
+    }
+  }
+}

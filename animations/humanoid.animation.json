@@ -1,0 +1,51 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.humanoid.brandish_spear": {//Trident raise
+			"loop": true,
+			"blend_weight" : "1-v.swim_amount",
+			"bones": {
+				"rightarm": {
+					"rotation": [//A bit messy; map angle is for telling if is player or drowned
+						"this * -0.5 - 160 - 20 * v.charge_amount + q.target_x_rotation/3",
+						"-this",
+						"-((math.cos(q.life_time * 103.2) * 2.865) + 2.865)"
+					]
+				}
+			}
+		},
+		"animation.humanoid.holding_spyglass": {
+			"loop": true,
+			"blend_weight": "math.clamp(math.clamp((q.main_hand_item_max_duration - (q.main_hand_item_use_duration - q.frame_alpha + 1.0)) / 10.0, 0.0, 0.25f) * 8, 0, 1) * (1-v.swim_amount)",
+			"bones": {
+				"head": {
+					"rotation": [
+						"-this + math.clamp(this, -70, 180)",
+						0.5,
+						0.5
+					]
+				},
+				"rightarm": {
+					"rotation": [
+						"q.is_gliding ? -160 : (q.is_sneaking ? -22.3) + math.clamp(q.target_x_rotation + math.clamp(q.target_y_rotation, -60, 60 * math.clamp(q.target_x_rotation/180,0,1))/2 + (math.clamp(q.target_y_rotation, 40, 180) - 40) * q.target_x_rotation/180 - 115, -180, 190 + q.target_y_rotation)",
+						"q.is_gliding ? 0 : math.clamp(q.target_y_rotation * 1.25 - 15, -70, 90 + q.target_x_rotation)",
+						"q.is_gliding ? 25: 5"
+					]
+				}
+			}
+		},
+		"animation.humanoid.use_item_progress": {
+			"loop": true,
+			"blend_weight": "(1-v.swim_amount)",
+			"bones": {
+				"rightarm": {
+					"rotation": [
+						"variable.use_item_startup_progress * -60.0 + variable.use_item_interval_progress * 11.25 + variable.use_item_startup_progress * math.clamp(q.head_x_rotation(0), -90, 45)",
+						"variable.use_item_startup_progress * -22.5 + variable.use_item_interval_progress * 11.25 + variable.use_item_startup_progress * q.target_y_rotation",
+						"variable.use_item_startup_progress * -5.625 + variable.use_item_interval_progress * 11.25"
+					]
+				}
+			}
+		}
+	}
+}

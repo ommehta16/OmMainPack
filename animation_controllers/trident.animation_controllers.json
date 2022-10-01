@@ -19,7 +19,7 @@
 							"wield_first_person_raise_shake": "query.main_hand_item_use_duration > 0.0f && v.item_slot == 'main_hand'"
 						},
 						{
-							"wield_first_person_riptide": "query.can_damage_nearby_mobs > 0.0 && !query.main_hand_item_use_duration > 0.0f"
+							"wield_first_person_riptide": "query.can_damage_nearby_mobs > 0.0 && !query.main_hand_item_use_duration > 0.0f && v.item_slot == 'main_hand'"
 						}
 					],
 					"transitions": [

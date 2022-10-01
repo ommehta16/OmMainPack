@@ -1,0 +1,1820 @@
+{
+   "content" : [
+      {
+         "path" : ".git/objects/13/6a4d2b9f069da651877d72b9ed340989ec7e90"
+      },
+      {
+         "path" : ".git/COMMIT_EDITMSG"
+      },
+      {
+         "path" : ".git/objects/0c/964dd0da4857dc97b6c955e9198047b4fd5282"
+      },
+      {
+         "path" : ".git/config"
+      },
+      {
+         "path" : ".git/hooks/fsmonitor-watchman.sample"
+      },
+      {
+         "path" : ".git/objects/09/43fd4fedd8e37d782e09762549ae46ca204727"
+      },
+      {
+         "path" : ".git/hooks/prepare-commit-msg.sample"
+      },
+      {
+         "path" : ".git/objects/d7/7c534bdb988c06ee05ae7aaa9c23208b77b92d"
+      },
+      {
+         "path" : ".git/HEAD"
+      },
+      {
+         "path" : ".git/description"
+      },
+      {
+         "path" : "textures/items/iron_hoe.png"
+      },
+      {
+         "path" : ".git/objects/14/4c1b0dd4a9e60cdabbc20fd14e9e79a448e183"
+      },
+      {
+         "path" : "textures/blocks/tinted_glass.png"
+      },
+      {
+         "path" : ".git/objects/e7/3ea26283c3acf218a193ca5306704771d8383f"
+      },
+      {
+         "path" : ".git/FETCH_HEAD"
+      },
+      {
+         "path" : ".git/objects/e9/d9c1eb54054d1bfb67c31c7e2f5b748e522128"
+      },
+      {
+         "path" : ".git/objects/0f/2060833dda3a43f4559a75e7b53c8ce4c797ea"
+      },
+      {
+         "path" : ".git/objects/0a/1bb991b150f8f6846444a82b8dcd27fde7f131"
+      },
+      {
+         "path" : ".git/hooks/applypatch-msg.sample"
+      },
+      {
+         "path" : ".git/objects/0b/2c159013be775493c34a6b9985252e34d38ffd"
+      },
+      {
+         "path" : ".git/hooks/commit-msg.sample"
+      },
+      {
+         "path" : "textures/entity/cat/siamesecat.png"
+      },
+      {
+         "path" : ".git/objects/03/88d236f278f22abc54b887c7c943151a289f95"
+      },
+      {
+         "path" : ".git/objects/65/20375c5e99c603f38858aad8b6e7e4f7d316c9"
+      },
+      {
+         "path" : ".git/hooks/pre-merge-commit.sample"
+      },
+      {
+         "path" : "textures/items/totem.png"
+      },
+      {
+         "path" : ".git/hooks/post-update.sample"
+      },
+      {
+         "path" : "textures/blocks/piston_side_sticky.png"
+      },
+      {
+         "path" : ".git/objects/11/67540ba799b7c67678a58a05382f65d08aa50b"
+      },
+      {
+         "path" : ".git/objects/04/8e0c62960c43a147e406ac49a71db3cf23e52c"
+      },
+      {
+         "path" : ".git/objects/5a/4334a9b5718f8b51cedd2a1f368ffe8a1873bd"
+      },
+      {
+         "path" : ".git/hooks/pre-applypatch.sample"
+      },
+      {
+         "path" : "textures/blocks/observer_front_lit.png"
+      },
+      {
+         "path" : ".git/hooks/pre-commit.sample"
+      },
+      {
+         "path" : ".git/hooks/pre-push.sample"
+      },
+      {
+         "path" : ".git/objects/98/d3fd10f8b734cdbfcf52c083b8023e43a95b03"
+      },
+      {
+         "path" : ".git/objects/b5/8fb1b71d8a767a39392cc3dc8c3e4e2e8d8db8"
+      },
+      {
+         "path" : ".git/objects/09/9d8338c3aaa299e36c53cffeeb94337b424666"
+      },
+      {
+         "path" : ".git/objects/b1/7b4f5d8f345d3b54a085c9815ec5c8b36ab50e"
+      },
+      {
+         "path" : "animations/cauldron.animation.json"
+      },
+      {
+         "path" : "models/entity/spyglass.geo.json"
+      },
+      {
+         "path" : ".git/hooks/pre-rebase.sample"
+      },
+      {
+         "path" : ".git/objects/45/cf1f5d30b4d9e773a9f187677d910a4c688e53"
+      },
+      {
+         "path" : "models/entity/cauldron.geo.json"
+      },
+      {
+         "path" : ".git/objects/40/da043979ad75bcf6380a0e35df69da4064860f"
+      },
+      {
+         "path" : "textures/entity/villager2/biomes/biome_plains.png"
+      },
+      {
+         "path" : ".git/hooks/pre-receive.sample"
+      },
+      {
+         "path" : "textures/blocks/campfire_log.png"
+      },
+      {
+         "path" : ".git/objects/0b/55f771c7e3fdfa4b89aadf1f67d2384f78ba3a"
+      },
+      {
+         "path" : ".git/hooks/push-to-checkout.sample"
+      },
+      {
+         "path" : ".git/objects/b0/e85c55928175293f4b904cc023a357ac37d607"
+      },
+      {
+         "path" : "animations/humanoid.animation.json"
+      },
+      {
+         "path" : ".git/hooks/update.sample"
+      },
+      {
+         "path" : ".git/index"
+      },
+      {
+         "path" : ".git/objects/54/cd453b9013cc9924c795d880b6bb2ff0b740f0"
+      },
+      {
+         "path" : ".git/objects/0d/fdf105315b14ff7a577e9ff67f7913b2edb0c1"
+      },
+      {
+         "path" : ".git/objects/0d/1982c67b2dd8013dfb6fece331e66087f2ce2a"
+      },
+      {
+         "path" : ".git/info/exclude"
+      },
+      {
+         "path" : "animation_controllers/player.animation_controllers.json"
+      },
+      {
+         "path" : ".git/objects/53/de99a737d018f3231ee5aa73cc3a6c0845c94d"
+      },
+      {
+         "path" : ".git/logs/HEAD"
+      },
+      {
+         "path" : "textures/items/gold_sword.png"
+      },
+      {
+         "path" : ".git/logs/refs/heads/main"
+      },
+      {
+         "path" : ".git/objects/0b/6e615729673412bc19adba229b7327070eb5f2"
+      },
+      {
+         "path" : ".git/objects/15/195a456be4027c117819028eecd1c96904b005"
+      },
+      {
+         "path" : ".git/objects/71/d903bb431abb1f2115c8d329828b06a7a6daad"
+      },
+      {
+         "path" : "textures/blocks/fire_0.png"
+      },
+      {
+         "path" : ".git/objects/13/0f037cf8bd3a1f455e397b56f0bf95cfd9f2c3"
+      },
+      {
+         "path" : ".git/objects/95/341bf9c9af32d01458708dcdfe10e76da6975d"
+      },
+      {
+         "path" : ".git/logs/refs/remotes/origin/main"
+      },
+      {
+         "path" : ".git/objects/00/bbbb887191bb7c60897d7b5a12d70f042f301d"
+      },
+      {
+         "path" : ".git/objects/62/8d9a58d638482e447b99015c0f4ff0d1cfeea4"
+      },
+      {
+         "path" : ".git/objects/89/a918d762659da8808869a5d822d649e17a2d35"
+      },
+      {
+         "path" : ".git/objects/00/cbc34dd005841811d839c08fba5ea747297f26"
+      },
+      {
+         "path" : ".git/objects/d9/b5ecf73dbe6f85a46d3c512837d6c88d5a2535"
+      },
+      {
+         "path" : ".git/objects/03/8be45eb8712180b9aa9ebb6840e6f45545b5fb"
+      },
+      {
+         "path" : ".git/objects/47/46c2b2edcb46c94f6583935e9f02b8f39251dd"
+      },
+      {
+         "path" : ".git/objects/0e/9ad0fc92fd9479c7a1bfb07d924c8cad3fedf8"
+      },
+      {
+         "path" : ".git/objects/04/4d7fc2d6884fc09edee4acaa1a0f388480eb40"
+      },
+      {
+         "path" : "textures/blocks/infested/chiseled_stone_bricks.png"
+      },
+      {
+         "path" : ".git/objects/60/ed3db77f63ab05fabbc2e7f896fc363695ce89"
+      },
+      {
+         "path" : ".git/objects/7c/cadcf373410aa8bedb0e4a328f2f3d8e310c0d"
+      },
+      {
+         "path" : ".git/objects/ef/ee3bea21d5ff970fd34cff720326e74b60fc98"
+      },
+      {
+         "path" : "ui/trade_2_screen.json"
+      },
+      {
+         "path" : ".git/objects/05/7948b107c6160a8ef886106b785178dddbe1fd"
+      },
+      {
+         "path" : ".git/objects/05/bfe7bbb5d66e599897c764c142baa79e3ba0c7"
+      },
+      {
+         "path" : "textures/blocks/flower_pot_item.png"
+      },
+      {
+         "path" : ".git/objects/7f/46737413f838c08e9634e1abe563ac77ea3dc4"
+      },
+      {
+         "path" : ".git/objects/12/e314df9944a2ea596dcd916f731e3b515ab868"
+      },
+      {
+         "path" : ".git/objects/05/e4edf0dacc4495ac809d289e9ea6512ba073ce"
+      },
+      {
+         "path" : "animations/spyglass.animation.json"
+      },
+      {
+         "path" : "entity/skeleton.entity.json"
+      },
+      {
+         "path" : ".git/objects/07/76f2a8009f9a319888c08296b453296e42c33e"
+      },
+      {
+         "path" : ".git/objects/08/0594a63856f9213c50259eb3a3151a9f9fd14a"
+      },
+      {
+         "path" : ".git/objects/c9/2431c4fc35043c9ac1cb113e43b78752461633"
+      },
+      {
+         "path" : ".git/objects/cd/03d6ad33edb623d5aca06dd6ae2eda6e38be3e"
+      },
+      {
+         "path" : ".git/objects/0e/77698d67139af58f80fcbc6cadc911ba934733"
+      },
+      {
+         "path" : ".git/objects/c8/bcd0836304ef6ac20fa69b1be8a06a0110f890"
+      },
+      {
+         "path" : ".git/objects/35/8723b38b74cdf7cab6396bad852cc1043e6a02"
+      },
+      {
+         "path" : ".git/objects/09/af2fdefef7d16a719bbcae58722d665b902135"
+      },
+      {
+         "path" : ".git/objects/0a/2849737eb746dccf5c5d97467a8cbba84e20e0"
+      },
+      {
+         "path" : ".git/objects/11/2f1873fba2d6249d874c430482a6e4440a16ee"
+      },
+      {
+         "path" : ".git/objects/0b/e9c2234537f2ec30747d3bf68556c0c64fb690"
+      },
+      {
+         "path" : ".git/objects/78/d422e089c85e1a2bf9d750f26dd8403a17e20d"
+      },
+      {
+         "path" : ".git/objects/bf/7c22a181635b9d7bbd52643b63ae276ad74da2"
+      },
+      {
+         "path" : ".git/objects/0d/ce63d433317809c98532da1a13cc04942db419"
+      },
+      {
+         "path" : ".git/objects/0f/18babb32982ee217ed3cadf8a09b7e0779e852"
+      },
+      {
+         "path" : ".git/objects/12/d757a71792b3c2231f97963e64a824073e8dbc"
+      },
+      {
+         "path" : ".git/objects/63/a45d96f267671b5cd591a811168dd705506b73"
+      },
+      {
+         "path" : ".git/objects/12/e1b29fa4bd9c0aed30f283f1096ead81f843e5"
+      },
+      {
+         "path" : "models/entity/bow.geo.json"
+      },
+      {
+         "path" : ".git/objects/13/ee6303307edd5697e6d00e208b8156cc3939ed"
+      },
+      {
+         "path" : "blocks.json"
+      },
+      {
+         "path" : ".git/objects/14/de5783b10f7a7b7a3575a097f628930d755c57"
+      },
+      {
+         "path" : "models/entity/bed_hand.geo.json"
+      },
+      {
+         "path" : ".git/objects/2f/5c3dd37c6069d2290dad64df6b93b287971d5d"
+      },
+      {
+         "path" : ".git/objects/15/cda7ee258c0aabd3600a6709d83c522d7c5b2c"
+      },
+      {
+         "path" : "textures/blocks/hopper_top_10.png"
+      },
+      {
+         "path" : ".git/objects/b9/e9a359c1cf785235fd6864564ce63ed298f0c7"
+      },
+      {
+         "path" : ".git/objects/16/56e3a68a3660b3193047f207e48066a99bbd44"
+      },
+      {
+         "path" : ".git/objects/a2/3ee8325e16e99d76750c48a380f5e2cef0bdb4"
+      },
+      {
+         "path" : ".git/objects/17/0f898f164dcc6f11eab59f59f18df4cdd385b7"
+      },
+      {
+         "path" : ".git/objects/17/31eb0eb6e1acb6df0ed53eb7679f9ea59931db"
+      },
+      {
+         "path" : ".git/objects/b9/a538e7f6169640d2eda7168712a50206d0a7ed"
+      },
+      {
+         "path" : ".git/objects/2c/b7c8aa3f4fe8ec526bd5dfd475433d424bfe4d"
+      },
+      {
+         "path" : ".git/objects/17/59df581f71084eba54b56b1f5da8432e53e961"
+      },
+      {
+         "path" : ".git/objects/aa/2dfe7477e0eaa71a548b560e4c1b62005e89c0"
+      },
+      {
+         "path" : ".git/objects/18/996ad11dd39a43d11f6d0fb3fc322063dbfcbc"
+      },
+      {
+         "path" : ".git/objects/19/63eaf0eec83d0facb089f87cdfe87f33f51922"
+      },
+      {
+         "path" : ".git/objects/19/a117f67a538d367b2ace55eb4e5157e0d713db"
+      },
+      {
+         "path" : ".git/objects/1a/a4670413cc87795e946e3e75b3b3c798c85822"
+      },
+      {
+         "path" : ".git/objects/dd/0083679b91a5dd1a50510502c8b1398e990297"
+      },
+      {
+         "path" : ".git/objects/fc/9d2777894f4eb410ce32fbe77d11a44dd91c15"
+      },
+      {
+         "path" : ".git/objects/1a/bac4ac1fe6090f08ab3fbf51882798e6b241a5"
+      },
+      {
+         "path" : ".git/objects/1c/7c8e786f6481cd5a4fd1d41496482696fc073e"
+      },
+      {
+         "path" : "textures/blocks/hopper_top_5.png"
+      },
+      {
+         "path" : ".git/objects/1d/c9d413814e7dceab784306a6696f0e752fcdac"
+      },
+      {
+         "path" : ".git/objects/7e/beab9d119bea6544c40a863ee0512f77261712"
+      },
+      {
+         "path" : "textures/items/flower_pot.png"
+      },
+      {
+         "path" : ".git/objects/1e/4799e56ed20037b1197d2603b2de20c64c312e"
+      },
+      {
+         "path" : ".git/objects/1e/600efc31381c94ec801528a82f7bf79fce45ea"
+      },
+      {
+         "path" : ".git/objects/72/2eeebbb58ad01e358b9fecbd77efc43e97c3d4"
+      },
+      {
+         "path" : "models/mobs.json"
+      },
+      {
+         "path" : ".git/objects/1f/4d766b844a66ce5b11515502bf81f9e52a7cf6"
+      },
+      {
+         "path" : ".git/objects/22/b9c562201e73d8108d976b1cf9135907b002ad"
+      },
+      {
+         "path" : ".git/objects/23/e4515d733d314b9458dc4aeaf8393bd271f648"
+      },
+      {
+         "path" : ".git/objects/23/f092f2d3a7128edfc52e74b62819f9d702cd59"
+      },
+      {
+         "path" : "textures/items/diamond_axe.png"
+      },
+      {
+         "path" : "textures/entity/.DS_Store"
+      },
+      {
+         "path" : ".git/objects/24/39ae0cf31b25f21fe11985ccb937f19833d486"
+      },
+      {
+         "path" : ".git/objects/24/7f8c7abb2acafd4e5075845eb6f5c84aacee75"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_oxidized_copper_double2.png"
+      },
+      {
+         "path" : ".git/objects/24/d896d6f22db1a356cd1121dbd247ba78d3634b"
+      },
+      {
+         "path" : ".git/objects/25/866bdfc24ef76ba9ab66c0c2d67363c0c8977a"
+      },
+      {
+         "path" : "textures/blocks/fire_1.png"
+      },
+      {
+         "path" : ".git/objects/b7/dc620daac63973dca16c8381f59a90c5824021"
+      },
+      {
+         "path" : "attachables/shield.entity.json"
+      },
+      {
+         "path" : ".git/objects/26/6d72edead627e486d93cc669cb6e86db0ca419"
+      },
+      {
+         "path" : ".git/objects/76/f26e6440cfec40e20e796e7bacd5d016114741"
+      },
+      {
+         "path" : ".git/objects/26/73eb248be9db5e0ae9f8acaa9cb8eab9f47fb9"
+      },
+      {
+         "path" : ".git/objects/26/924c404f380854c475fa5498f31016e263a3a7"
+      },
+      {
+         "path" : ".git/objects/89/d066e83340bca1680bfd3265b7061145a07d8f"
+      },
+      {
+         "path" : ".git/objects/26/a32683ff2f363fad536a69b06e3fa2997cc5e7"
+      },
+      {
+         "path" : "models/entity/flower_pot.geo.json"
+      },
+      {
+         "path" : "textures/items/diamond_shovel.png"
+      },
+      {
+         "path" : ".git/objects/26/d4c937fbd92b934643b6971c3b3c646555328a"
+      },
+      {
+         "path" : ".git/objects/66/a8a1d83583ecf6c2da6f0336f52f1e326aeeab"
+      },
+      {
+         "path" : ".git/objects/27/92644a767b24e1caa7a3c20f7535640909160d"
+      },
+      {
+         "path" : ".git/objects/40/8a454471479defaaf2bf5483870bf2f2441123"
+      },
+      {
+         "path" : ".git/objects/28/94a93d160f31ff634d04c7697e9a936fbb996b"
+      },
+      {
+         "path" : ".git/objects/29/05853ee8856df59b54e0a30e215f387834bec0"
+      },
+      {
+         "path" : ".git/objects/ac/b8cd55c93e691ed4c27b2a24eb359f6081ad83"
+      },
+      {
+         "path" : ".git/objects/29/e141babcccef732842c94185be8fb9ffd78a25"
+      },
+      {
+         "path" : ".git/objects/59/b90dc298ea02ac931ae7c592bc31d72717ee40"
+      },
+      {
+         "path" : "textures/items/nether_star.png"
+      },
+      {
+         "path" : ".git/objects/29/f19e1735a066f0e2e382fd933a3180efd9e42f"
+      },
+      {
+         "path" : ".git/objects/2a/060530b1da160ae30236c0b2b336f72a26976c"
+      },
+      {
+         "path" : ".git/objects/66/043dc5adbb7f7f123959735b1e0cb271e613d6"
+      },
+      {
+         "path" : ".git/objects/2a/62eebd3d41785f8fc53eea72e64e5dfb96455a"
+      },
+      {
+         "path" : ".git/objects/e2/83dd9971dcf441da69373447c03d496c2f3644"
+      },
+      {
+         "path" : ".git/objects/9b/a884d8353959ccbe9e1ede6e568f7ed421d1e0"
+      },
+      {
+         "path" : "pack_icon.png"
+      },
+      {
+         "path" : "render_controllers/player.render_controllers.json"
+      },
+      {
+         "path" : ".git/objects/2a/e96795bc1800ff749860883a6eb017889ac6fe"
+      },
+      {
+         "path" : "textures/blocks/age_25_kelp.tga"
+      },
+      {
+         "path" : ".git/objects/2b/fb7fdacf81452e8ca480b1ba63a6fedb89622c"
+      },
+      {
+         "path" : ".git/objects/2d/6cd596fb3d8dbfb5a9ea0774eb7177b639d5f6"
+      },
+      {
+         "path" : ".git/objects/3f/7ff014bc9b7ab12b7c2cd8e8f158c30ec9bdc5"
+      },
+      {
+         "path" : ".git/objects/2d/9428f7ec0e5214bff9e5e377995efa0aa73b7a"
+      },
+      {
+         "path" : ".git/objects/74/515ec5eb1cbd1277b878ff37b2458952465632"
+      },
+      {
+         "path" : ".git/objects/2e/2efac526545b0a354bdb0a191141122d0d3b40"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_oxidized_copper_stairs1.png"
+      },
+      {
+         "path" : ".git/objects/2f/88fdc4e4754d4f2c84022498804a1601d147da"
+      },
+      {
+         "path" : ".git/objects/52/d0aa7453bc99d489fe96b5e059c179c90f10d5"
+      },
+      {
+         "path" : ".git/objects/31/e209b166cbbd94c67eba65622a9eb790ce8c7f"
+      },
+      {
+         "path" : "models/entity/trident.geo.json"
+      },
+      {
+         "path" : ".git/objects/32/78bbb92ea9923481725b90ea51d6ea9503429a"
+      },
+      {
+         "path" : ".git/objects/be/ac413af08a82b344ca088687e30e10604326d2"
+      },
+      {
+         "path" : ".git/objects/32/c7e63b53757c036ccc97db17d3d3d435d6fffa"
+      },
+      {
+         "path" : ".git/objects/9d/bb62d28b282bce1b402c39969987c40ec8eb3f"
+      },
+      {
+         "path" : ".git/objects/57/ca929b336698931eb2471f930d669adad8acb7"
+      },
+      {
+         "path" : ".git/objects/32/d0ff23a145253f74ae456096d10055fabfa28d"
+      },
+      {
+         "path" : ".git/objects/32/d121a51711cf85c0c297aef61cb93ac81ceb98"
+      },
+      {
+         "path" : "models/.DS_Store"
+      },
+      {
+         "path" : "animation_controllers/shield.animation_controllers.json"
+      },
+      {
+         "path" : ".git/objects/34/3d4787475344fea4e9adf961280294c8e5f1e0"
+      },
+      {
+         "path" : ".git/objects/34/c8c90976622591776236ec86fc9d65bd1f1cd0"
+      },
+      {
+         "path" : ".git/objects/34/fc2959cbef8df9637ff0b0fd1242a4722ac709"
+      },
+      {
+         "path" : ".git/objects/c3/4cfec578565ba9fba9ed81e300676d3d2e1e32"
+      },
+      {
+         "path" : ".git/objects/35/0c008c39a0293f2f17e1bb0a8c9431e36136ad"
+      },
+      {
+         "path" : ".git/objects/ed/a11ed77a4150a48147fb46ebd9cd15f08e6fc1"
+      },
+      {
+         "path" : ".git/objects/35/b4cf219ec8e6ffe234ce3642c9f1185fcfc27b"
+      },
+      {
+         "path" : ".git/objects/35/ca7ea938a99af034e896f2c1278ff53037b976"
+      },
+      {
+         "path" : ".git/objects/38/966f290dc4622c95ff1b746ce923343e0dea61"
+      },
+      {
+         "path" : "textures/blocks/hopper_top_4.png"
+      },
+      {
+         "path" : ".git/objects/39/211f1208d709dd3d255863226f4683eff5f6b4"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_copper_stairs1.png"
+      },
+      {
+         "path" : ".git/objects/39/3997d040ea08144cab5d131bbb9d6c4c4dfec5"
+      },
+      {
+         "path" : "textures/items/crossbow_pulling_0.png"
+      },
+      {
+         "path" : ".git/objects/e3/86d7c548a3ecae312011c48415f49a499d22c4"
+      },
+      {
+         "path" : ".git/objects/3a/68b57a7540686d88fedb3a83856bd379e5f684"
+      },
+      {
+         "path" : "ui/settings_sections/general_section.json"
+      },
+      {
+         "path" : ".git/refs/remotes/origin/main"
+      },
+      {
+         "path" : ".git/objects/3b/00f90c9d2e53168482da8eabbe42ef8bc37580"
+      },
+      {
+         "path" : "textures/items/stone_sword.png"
+      },
+      {
+         "path" : "textures/items/iron_axe.png"
+      },
+      {
+         "path" : ".git/objects/5f/4532a220fad51180df29611e5009d46d9e18b2"
+      },
+      {
+         "path" : ".git/objects/3b/f39823fddb30c55a3798632031c82c32c9c6c9"
+      },
+      {
+         "path" : ".git/objects/3c/d85149daae224786e18178c95d71110444ba66"
+      },
+      {
+         "path" : ".git/objects/52/d696198e8d12fc14db04b638f74a53aafd85cd"
+      },
+      {
+         "path" : ".git/objects/3d/aa9e7f02ca489b9dc72fb3702602a37921d4a5"
+      },
+      {
+         "path" : "animations/items list.txt"
+      },
+      {
+         "path" : ".git/objects/3d/ee4826c366959d452667913097737d7c7288e6"
+      },
+      {
+         "path" : ".git/objects/79/99d0598282be1ec17d069743fb287e9e4bfe77"
+      },
+      {
+         "path" : "textures/ui/wither_heart.png"
+      },
+      {
+         "path" : ".git/objects/3f/3a1a068875ac106cd6ffe758d48b7849d1191b"
+      },
+      {
+         "path" : ".git/objects/3f/c2d44b8b793ba5e8834aa07c058b935d1f0464"
+      },
+      {
+         "path" : "attachables/bed.entity.json"
+      },
+      {
+         "path" : ".git/objects/41/0c1540c9ea63658449323eff460f693f72db66"
+      },
+      {
+         "path" : ".git/objects/41/fcd87bf49abf43942d06a88bf3d98f1c139524"
+      },
+      {
+         "path" : ".git/objects/41/ff141fc23d7b5b78e5869845c3b65d57a240a3"
+      },
+      {
+         "path" : ".git/objects/42/ae3ea8925c8e2933843698e4408a8f123b7773"
+      },
+      {
+         "path" : ".git/objects/43/6fe34806ce533471cb8b8217ba79215e41e27d"
+      },
+      {
+         "path" : ".git/objects/43/748657ad32510da651acd12f64ddc0c18b009c"
+      },
+      {
+         "path" : "textures/blocks/infested/cracked_stone_bricks.png"
+      },
+      {
+         "path" : ".git/objects/45/bb48308cd7686d4f929d73397631407ec9dcc3"
+      },
+      {
+         "path" : ".git/objects/45/e02ef5627c71673a464be6c54541cf84f92de4"
+      },
+      {
+         "path" : ".git/objects/f9/679a81aaf320ca93f4779c0682eea92587f234"
+      },
+      {
+         "path" : ".git/objects/b3/fd9277007c63bc6b0521bb1a92f77880847891"
+      },
+      {
+         "path" : ".git/objects/45/e6aef5f9aa81e13777e9e7af48fab4c42cba37"
+      },
+      {
+         "path" : ".git/objects/82/e0382a504d00fa8ac00116df75e8e157ef61bb"
+      },
+      {
+         "path" : ".git/objects/46/0883c7c8a633c9e5605184a4d8f3709875c59b"
+      },
+      {
+         "path" : ".git/objects/46/c77daaa3a0bab86f61bef12dbcf8d3a83eadfe"
+      },
+      {
+         "path" : ".git/objects/ea/3f23118ef83e58723e49f3fa6d8a8f9a2df4ee"
+      },
+      {
+         "path" : ".git/objects/8f/b5d3cd42086413b365d0d3290464fcac014682"
+      },
+      {
+         "path" : ".git/objects/47/caedfd3f237f95e54f8e2747d7cf128d2655eb"
+      },
+      {
+         "path" : "animations/.DS_Store"
+      },
+      {
+         "path" : "textures/blocks/observer_top_lit.png"
+      },
+      {
+         "path" : ".git/objects/8f/2b0e1f9120ff890adb9794801e4932ccd33aee"
+      },
+      {
+         "path" : ".git/objects/48/26e9e92111d0864c26373e4edee730f837f755"
+      },
+      {
+         "path" : ".git/objects/4b/03e050378211c41ec901bc37ccb1913ac7de6a"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_oxidized_copper_double1.png"
+      },
+      {
+         "path" : ".git/objects/b3/2aebc7139c566d9b740e0c61cdc46176570da7"
+      },
+      {
+         "path" : ".git/objects/6e/adcb3f36f81e07b5056b38e24bcd7aedb8e5cd"
+      },
+      {
+         "path" : ".git/objects/4b/2e4eb442a6498acc4135bf476ed21ac88ede19"
+      },
+      {
+         "path" : ".git/objects/4b/8cb6d662018143b7152104710121482f10e2ab"
+      },
+      {
+         "path" : ".git/objects/84/a2f2060acd5c108ecd2fe313744fca1a71b2c9"
+      },
+      {
+         "path" : "attachables/crossbow.entity.json"
+      },
+      {
+         "path" : ".git/objects/4c/8c7a8efd0cb3318ab527e9fb35caea80c65218"
+      },
+      {
+         "path" : ".git/objects/4d/dfa7b4b9d6da5111968f53478dd18a07b08a2d"
+      },
+      {
+         "path" : ".git/objects/50/fdbd2e1f85da5d0e0e910ddb75794b77f06ce7"
+      },
+      {
+         "path" : ".git/objects/5a/c8e29ef92d273527b803614146235eccbad96f"
+      },
+      {
+         "path" : ".git/objects/5a/fc658522f95c0b4fdafb9dfa9f11ff7b2895ac"
+      },
+      {
+         "path" : ".git/objects/8d/e5dd1eb05c97825fc5d2206feb03b7267c87ab"
+      },
+      {
+         "path" : ".git/objects/52/e5b5791d27ced839b1365d2351b5f744c6ebb4"
+      },
+      {
+         "path" : ".git/objects/53/a189390027917e0813fdea68e37604dd894709"
+      },
+      {
+         "path" : "animations/flower_pot.animation.json"
+      },
+      {
+         "path" : "textures/items/wood_hoe.png"
+      },
+      {
+         "path" : ".git/objects/d5/818a7d157eecdaa1d91d82d5068b8fd24bffdf"
+      },
+      {
+         "path" : ".git/objects/54/49b1e68c56bc365eafe6fc34508de8956a7312"
+      },
+      {
+         "path" : ".git/objects/54/abcd7e3ed4dcccb1de6a210e192682624d5f09"
+      },
+      {
+         "path" : "textures/blocks/observer_back.png"
+      },
+      {
+         "path" : "textures/items/bow_standby.png"
+      },
+      {
+         "path" : ".git/objects/55/7d816021769a8155a1353e24e3a840344dc943"
+      },
+      {
+         "path" : ".git/objects/58/6854be0416fc171ef30874f051b82238f30544"
+      },
+      {
+         "path" : ".git/objects/59/bac2cf16be6055ba6364907dd8aad7cb19eb8b"
+      },
+      {
+         "path" : ".git/objects/d8/e11dab6605db847220d0ab998b895c297c5d19"
+      },
+      {
+         "path" : ".git/objects/5a/5226fb63e6c46b38a8ddaaa0e46583d7a54f3d"
+      },
+      {
+         "path" : ".git/objects/5c/c08d5d31ed90c55232a9652fd245a028b9348e"
+      },
+      {
+         "path" : ".git/objects/5d/413d7bd155d05dba1286491d83da033d9e40be"
+      },
+      {
+         "path" : ".git/objects/b6/f3ac67103558e5a6e3b8414b98b6cd2e7ffbc0"
+      },
+      {
+         "path" : ".git/objects/99/98b58741f70f525b9ad072f918dc26a443eb4e"
+      },
+      {
+         "path" : ".git/objects/5f/7fadc936a91ed2353460ce8e1d71e4af8a0702"
+      },
+      {
+         "path" : ".git/objects/76/76f89c75fc56733f9320432e96d5a731f8ac3a"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_weathered_copper.png"
+      },
+      {
+         "path" : ".git/objects/5f/9bef0ee5a11f01a35fc8eb0172aa9c5f7f2592"
+      },
+      {
+         "path" : "textures/items/bow_pulling_2.png"
+      },
+      {
+         "path" : ".git/objects/5f/ad416493c62a10912b14a8d2377841c79d7bd3"
+      },
+      {
+         "path" : ".git/objects/e3/41e9428f565cb72d3af27a5f6d4cff53290d9f"
+      },
+      {
+         "path" : ".git/objects/fd/38802598e241397337260729c73bb6dd17560d"
+      },
+      {
+         "path" : "textures/items/gold_axe.png"
+      },
+      {
+         "path" : ".git/objects/5f/e21e510919a6301e3d4bdd7d25906084999290"
+      },
+      {
+         "path" : ".git/objects/bf/a953fc4c5941515f5bf3d89f909946e86e7f19"
+      },
+      {
+         "path" : "textures/entity/villager2/professions/armorer.tga"
+      },
+      {
+         "path" : ".git/objects/60/b3886c978a853037782e349c3a4447d879b44d"
+      },
+      {
+         "path" : "textures/environment/weather.png"
+      },
+      {
+         "path" : ".git/objects/60/e46d2b29246cde9c7bc8dda7a7f29e97632d39"
+      },
+      {
+         "path" : ".git/objects/62/cc98b2999addf3e971f849affae0a0d9f3430e"
+      },
+      {
+         "path" : "textures/entity/villager2/professions/weaponsmith.tga"
+      },
+      {
+         "path" : ".git/objects/65/16f29c2ea08dab7cdf8c7c87520266db1d3e9d"
+      },
+      {
+         "path" : ".git/objects/67/f298b3d2e8e79e8270b4f2559fb7dec09fcd97"
+      },
+      {
+         "path" : ".git/objects/69/0eec49966202fecf54c46de6d3e251fc14c59a"
+      },
+      {
+         "path" : ".git/objects/6a/cbfad0edbadf2f2f2298f34be7567bb5dc545e"
+      },
+      {
+         "path" : ".git/objects/6b/8a5510d606e65ba4847af533ada80c2ba9ad57"
+      },
+      {
+         "path" : ".git/objects/6c/23121e3bd3561620a13d9e3d35e6c9769311bf"
+      },
+      {
+         "path" : ".git/objects/6c/5a309556eb2ef53a6a3fc7186b6fddfef0edd2"
+      },
+      {
+         "path" : ".git/objects/78/711ce9d8e69d4039b27145ae16d4a537ecdca2"
+      },
+      {
+         "path" : ".git/objects/6c/8d9456e2bdc2b8e4ab977992dab228c589020e"
+      },
+      {
+         "path" : "textures/ui/spyglass_scope.png"
+      },
+      {
+         "path" : ".git/objects/6e/37b39ed7d091a130b9bffd845fad76df166a18"
+      },
+      {
+         "path" : "textures/blocks/infested/stone_bricks.png"
+      },
+      {
+         "path" : ".git/objects/6f/134bfab1f3bc74c5bc39022d4ec6dbdf4684bc"
+      },
+      {
+         "path" : ".git/objects/70/233f81080ef8f3705bc9e0a7cbd7587d8bc530"
+      },
+      {
+         "path" : ".git/objects/70/602652cbd9807842e503c3b39247f38bbb2a4f"
+      },
+      {
+         "path" : ".git/objects/71/53c851e3aca0d7fb858e8b6eb1459cbf2ef960"
+      },
+      {
+         "path" : ".git/objects/72/c554f8404471e6dd9ce90c7236004bafcd1121"
+      },
+      {
+         "path" : ".git/objects/73/320d81c72293f2052451342c54c69438977919"
+      },
+      {
+         "path" : ".git/objects/74/f142243b3b1120e502ae215e094720cbefdd7f"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_exposed_copper.png"
+      },
+      {
+         "path" : ".git/objects/78/d655218b50b05af7c204a296955388c3d95b77"
+      },
+      {
+         "path" : "attachables/cauldron.entity.json"
+      },
+      {
+         "path" : ".git/objects/78/daa4bd0f4e47a2571d6ae23ea92df18e061472"
+      },
+      {
+         "path" : ".git/objects/79/ddf52ca6cf1f215a59136f2fbace593e41a2ef"
+      },
+      {
+         "path" : ".git/objects/bd/1adad0eb4fc29517e8ae79b0a4c8ef928529aa"
+      },
+      {
+         "path" : "textures/entity/cat/white.png"
+      },
+      {
+         "path" : ".git/objects/e0/cd636989eefc9d3cbc170c2e342555fee55abd"
+      },
+      {
+         "path" : ".git/objects/7b/66d5294a87463e2432234ab9273bca113db469"
+      },
+      {
+         "path" : ".git/objects/cc/dd89c46baaaeb033c1dce5dc47dee2928900a2"
+      },
+      {
+         "path" : "textures/blocks/observer_side_lit.png"
+      },
+      {
+         "path" : ".git/objects/7b/e7242ca85ebba8d258238c123938a3121a29f3"
+      },
+      {
+         "path" : ".git/objects/9b/712adebf5e6f9806f6bff17cd7a29e4215deea"
+      },
+      {
+         "path" : ".git/objects/7d/14e6c59f56c45af5b08b5b20eb1848cfd93ae1"
+      },
+      {
+         "path" : ".git/objects/7e/c3bbc2eb7712d49f851bb06cff9c153b3c58ea"
+      },
+      {
+         "path" : "animations/bow.animation.json"
+      },
+      {
+         "path" : ".git/objects/7f/b8ff8937cc752325b10c9617ad66d6884d0e8f"
+      },
+      {
+         "path" : ".git/objects/81/a2c8b9def85620ac14b07cc8a9ed9b5b3c3ee1"
+      },
+      {
+         "path" : ".git/objects/83/66d0a30c45de6e55c9979b08e4cf1cc77b9836"
+      },
+      {
+         "path" : ".git/objects/85/3e3982132b535cd9bc64a8a4da339ca6d7633a"
+      },
+      {
+         "path" : ".git/objects/85/acb380a6e0c265d504b2922b3e4eaa23686d54"
+      },
+      {
+         "path" : ".git/objects/85/b69c559a927db4647df250221b23be3a198419"
+      },
+      {
+         "path" : "textures/entity/villager2/professions/fisherman.tga"
+      },
+      {
+         "path" : ".git/objects/99/5bff9cbe2de0b3a31b537d6f3fd47364cac659"
+      },
+      {
+         "path" : ".git/objects/85/f314627a4b971554107b9372613e28c405be23"
+      },
+      {
+         "path" : "animations/shield.animation.json"
+      },
+      {
+         "path" : ".git/objects/86/1a7a1b6905b094a3335ec322b20f79858e0e2e"
+      },
+      {
+         "path" : ".git/objects/86/873f11edf531b7125b6087519b0a5d0e1185e6"
+      },
+      {
+         "path" : ".git/objects/d1/9bdda8bf433e76f7058712b3eb499fe1f5fa6a"
+      },
+      {
+         "path" : "textures/items/stone_hoe.png"
+      },
+      {
+         "path" : ".git/objects/86/fa7cad034b896611576d16d5555ec6b5ea0503"
+      },
+      {
+         "path" : ".git/objects/89/ee17de61d3ace12804ef4a38af6d24ecb555e9"
+      },
+      {
+         "path" : ".git/objects/8a/3bcc3c9c74c15d0d2f8323bc9ad92b4dd369a9"
+      },
+      {
+         "path" : ".git/objects/8a/1ba306b5d7abadd96c137c4944ceca80c511b5"
+      },
+      {
+         "path" : ".git/objects/8c/5225f0bea689068614605a8e4369a507ac7ded"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_copper_double2.png"
+      },
+      {
+         "path" : ".git/objects/b7/52bb31c7f4b393e2d401b71b8ec5538b7de46c"
+      },
+      {
+         "path" : "textures/items/crossbow_standby.png"
+      },
+      {
+         "path" : ".git/objects/8c/e4a30f699e5aba8b9710774678b201cd8a1233"
+      },
+      {
+         "path" : ".git/objects/8d/17ca45e22fbe2a68b4d999b737a2d44c599616"
+      },
+      {
+         "path" : ".git/objects/c9/6825b155fe06c776c63edafab3a029941ed5d4"
+      },
+      {
+         "path" : ".git/objects/8d/2d893b1cf618343ab78f641aa73ec9c4f312ec"
+      },
+      {
+         "path" : ".git/objects/8e/659a8612afc54a165cfe38f93b8e666aabbdbe"
+      },
+      {
+         "path" : ".git/objects/8e/9c461309dbaad2728861ec892972c90270f06d"
+      },
+      {
+         "path" : ".git/objects/92/c1f8958e4cbaba0ad74ece75daaaaae8a4f7f9"
+      },
+      {
+         "path" : ".git/objects/95/213a3c2a21e4a3bdd8ed3a8410dcd95df5bcb2"
+      },
+      {
+         "path" : ".git/objects/95/3f43e23f2ae2a77b23e94c8747c5bcf7721f46"
+      },
+      {
+         "path" : ".git/objects/b3/cc40760160efc330e2cc001b78937faad972ae"
+      },
+      {
+         "path" : "textures/blocks/nether_brick.png"
+      },
+      {
+         "path" : ".git/objects/95/616e7ca81e65006d30c871b4e6c3aef572cad5"
+      },
+      {
+         "path" : ".git/objects/96/5710a02cc00d2ecb3fcb6df4a577cb83b88773"
+      },
+      {
+         "path" : ".git/objects/96/cddda91f0bd607440c3bcf1561c30defbd37b7"
+      },
+      {
+         "path" : "textures/items/crossbow_pulling_1.png"
+      },
+      {
+         "path" : "textures/blocks/observer_back_lit.png"
+      },
+      {
+         "path" : ".git/objects/96/e13c5441e5714cf5b9fe7e9401b6f42135b259"
+      },
+      {
+         "path" : ".git/objects/9e/d6ad1f62a5567422cb1c4530fcecd13eb29a2f"
+      },
+      {
+         "path" : ".git/objects/96/e2f9156cca227b2f88a32bfd22a466909c2ac8"
+      },
+      {
+         "path" : ".git/objects/96/f952e2ed0f7db010c2897aa6687fc1dc2d8637"
+      },
+      {
+         "path" : ".git/objects/97/32d94c0cafbab09eaa9e2c2188fd0ded8c4805"
+      },
+      {
+         "path" : ".git/objects/97/7225e19c0f1bbd14fdffc13f010b4eda09c94e"
+      },
+      {
+         "path" : ".git/objects/e5/7d886be3d21de2af27ff0e5848da91587627b5"
+      },
+      {
+         "path" : ".git/objects/98/d78e0062c7723bea1be25849b5cd8bc32dcbe5"
+      },
+      {
+         "path" : ".git/objects/99/9219ce2efa032cf01864c050b8c93d893e29d1"
+      },
+      {
+         "path" : ".git/objects/9b/d27a23a0e11930fce69e47e71d83fe85e5f6a3"
+      },
+      {
+         "path" : ".git/objects/9e/0adc62c539e70295bf1595bc88a8d771fd4bd5"
+      },
+      {
+         "path" : ".git/objects/ac/56cc5e7853677f5a5956b50820c04fed453e7b"
+      },
+      {
+         "path" : ".git/objects/a3/ab2b9ec071d85a22f6135fc7401ac14ca6a247"
+      },
+      {
+         "path" : ".git/objects/a4/91c8ad5acca71251a2c899bf790aa0714375f0"
+      },
+      {
+         "path" : ".git/objects/a5/510cef22755c00046c7cb18e64565ebeb732a7"
+      },
+      {
+         "path" : ".git/objects/a9/026329f3dfa7f35a498f6833106164a33807ed"
+      },
+      {
+         "path" : ".git/objects/a9/030478116f5a929bed78ee8a870ce33fc8891c"
+      },
+      {
+         "path" : ".git/objects/a9/c8162f860f1c2742457b17a73df9f97af31feb"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_cut_copper.png"
+      },
+      {
+         "path" : ".git/objects/aa/73a92de134e341ab4e99c8f87dc817c0eb853e"
+      },
+      {
+         "path" : ".git/objects/ab/36b8f1dc60d0d0e9e99d5eabe062c191887f03"
+      },
+      {
+         "path" : "textures/items/apple_golden.png"
+      },
+      {
+         "path" : ".git/objects/e5/20b75586be6c5d009ea4128d584a67eb7a707b"
+      },
+      {
+         "path" : ".git/objects/ab/a2b2b009cfc66f2782211f1a65c3cf7d3da854"
+      },
+      {
+         "path" : ".git/objects/ae/5bc8b54ae75d4d8ac883625ceca4c573f602bf"
+      },
+      {
+         "path" : "textures/entity/cat/red.png"
+      },
+      {
+         "path" : ".git/objects/ae/e7ac16e04753b2d06e20d1643ac6cee3763ade"
+      },
+      {
+         "path" : ".git/objects/af/21213656fa98f245b605ebba2b4db3bc1938d6"
+      },
+      {
+         "path" : ".git/objects/af/5920af20c9f6c33b5c2b9de7a0ba6e2b155dff"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_exposed_copper_double2.png"
+      },
+      {
+         "path" : ".git/objects/af/d5a8c970851184af81e652887de82e10921616"
+      },
+      {
+         "path" : ".git/objects/d8/63ad75a4894705fb14546f2f09d3caa7d45d98"
+      },
+      {
+         "path" : ".git/objects/b0/a3176b3e99a2406a1992c1525f8a7119e53421"
+      },
+      {
+         "path" : ".git/objects/e7/63f777aeb5f028e708a6ef39d9e241cc96a3e8"
+      },
+      {
+         "path" : "textures/items/netherite_pickaxe.png"
+      },
+      {
+         "path" : "animations/bed.animation.json"
+      },
+      {
+         "path" : ".git/objects/b2/4f3785925d0e3b1b414e16a0537080e75b8077"
+      },
+      {
+         "path" : ".git/objects/b2/80c44ee3812f0cf5b85b895b6929b732f32cb8"
+      },
+      {
+         "path" : ".git/objects/b5/a4e9e91c4dcdf792cbe7e2064dc84879c9c0ed"
+      },
+      {
+         "path" : ".git/objects/fa/e37f579fbb8b8d82d979e372ef95d5dd686bbc"
+      },
+      {
+         "path" : ".git/objects/b6/22e7444a024fff334ddff0f7d8c79d268db45d"
+      },
+      {
+         "path" : ".git/objects/b6/fa38164825b64f5fecf80ad8e33c27aefd4334"
+      },
+      {
+         "path" : ".git/objects/bb/43ac442ed12f6d83bbf9cd74557d5193f054f3"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_weathered_copper_double1.png"
+      },
+      {
+         "path" : ".git/objects/bb/cad44e06968c3a19493b21ac9d94f63670fb4b"
+      },
+      {
+         "path" : "animation_controllers/trident.animation_controllers.json"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_oxidized_copper.png"
+      },
+      {
+         "path" : ".git/objects/bc/cd8c7d2d4740f20060fdcd88633ab38e980231"
+      },
+      {
+         "path" : ".git/objects/bd/91653365450f47747bc734228611455e9b2b5c"
+      },
+      {
+         "path" : ".git/objects/be/4f80aaf1a4fd5cf8356470e12ca3dd54097688"
+      },
+      {
+         "path" : ".git/objects/ca/94a232707c4691a340a54b6c8bc1e134f19bb7"
+      },
+      {
+         "path" : ".git/objects/c0/03a5bb9bdc8ee610b0b66ae376e125d89b288b"
+      },
+      {
+         "path" : ".git/objects/c0/d200c578fde6855649059f26e0c3ecb9668dd9"
+      },
+      {
+         "path" : ".git/objects/c1/25c174dbf878718ed095f1aa42583d782a0675"
+      },
+      {
+         "path" : ".git/objects/c1/a117472e1cbc48b43de59c6dae6ffa9a9ad0d0"
+      },
+      {
+         "path" : ".git/objects/c2/151d90f43ac967c69d45f4d9a2129e1a593d89"
+      },
+      {
+         "path" : ".git/objects/d2/8be6071a8474135d692e107a04da376e6d7b00"
+      },
+      {
+         "path" : ".git/objects/e5/1683e61e7328d54ba9c4d7b94b3d0209e3f141"
+      },
+      {
+         "path" : ".git/objects/c2/433062b0535e1c26d1b254949faac341388c27"
+      },
+      {
+         "path" : ".git/objects/c5/4046d3e48f703b2d637daa6d74b63f1fb16a47"
+      },
+      {
+         "path" : ".git/objects/c8/bccabe2f8ae5e4f65225599ab3fd0f9a71a510"
+      },
+      {
+         "path" : ".git/objects/c9/1a00920082e324820982a10d5b64fc435f1c6d"
+      },
+      {
+         "path" : ".git/objects/c9/95b3795dd10695e0f3adcda0048fa463105236"
+      },
+      {
+         "path" : ".git/objects/cb/0b159acf38654acd388938cdcf6fce32af1885"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_exposed_cut_copper.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_weathered_copper_double2.png"
+      },
+      {
+         "path" : "attachables/offhand_slot.entity.json"
+      },
+      {
+         "path" : "textures/blocks/soul_campfire_log_lit.png"
+      },
+      {
+         "path" : ".git/objects/cd/61355cb281b813977da9e086be55a69d38fcd4"
+      },
+      {
+         "path" : "entity/player.entity.json"
+      },
+      {
+         "path" : ".git/objects/cd/c19dc7252ab27b911a9afd93b9ddc5fd771b42"
+      },
+      {
+         "path" : ".git/objects/ce/f3ae8eebe70ff4dc0e082a41df6b99ab342e4c"
+      },
+      {
+         "path" : ".git/objects/cf/aa8ce76357144c580a2577d5b13141dd3cb856"
+      },
+      {
+         "path" : "textures/blocks/hopper_top_12.png"
+      },
+      {
+         "path" : ".git/objects/d0/4a061c852e9c347088d320b1f02fa419141939"
+      },
+      {
+         "path" : ".git/objects/d0/b6fd3e067391bc55753011214bef53bbab372e"
+      },
+      {
+         "path" : ".git/objects/d2/993099e627e7e3fa3ef8f5bf7e6993183ba824"
+      },
+      {
+         "path" : ".git/objects/ec/6fa6f1909977af6bc8d1093494001591849c1c"
+      },
+      {
+         "path" : ".git/objects/d5/5224058734f1c04b74c35c05746251734dd52f"
+      },
+      {
+         "path" : ".git/objects/d8/b16ff9659e6c8757858e89ae347c9d1a0c8346"
+      },
+      {
+         "path" : ".git/objects/de/7ba2e5ea80c30c44fae7619452e556ba794e21"
+      },
+      {
+         "path" : ".git/objects/df/155c6713eca2b4dbea64888b6efbf825ce9025"
+      },
+      {
+         "path" : "textures/blocks/soul_campfire_log.png"
+      },
+      {
+         "path" : ".git/objects/e5/6d328c94b22d1db9181b3985b24148a1dbbbf6"
+      },
+      {
+         "path" : ".git/objects/e7/a804f6e9191343dbefeeedf7239c6c2355d23c"
+      },
+      {
+         "path" : "textures/items/stone_axe.png"
+      },
+      {
+         "path" : "animations/player_firstperson.animation.json"
+      },
+      {
+         "path" : ".git/objects/e8/03a13b8385ddbadbc4388758b8e5f1ffee5dc7"
+      },
+      {
+         "path" : ".git/objects/e8/156f6dcaf4dd5fa7289bb834bbf274a53c69c5"
+      },
+      {
+         "path" : ".git/objects/e8/9baa9e7e3e3a329b9568449693d2775d8ac858"
+      },
+      {
+         "path" : "textures/blocks/piston_top_sticky.png"
+      },
+      {
+         "path" : ".git/objects/e9/e0b3a1bceeb099194609262b2188210fbf7ecc"
+      },
+      {
+         "path" : ".git/objects/ea/5eb6f764a4ef1c2e2552ef76357ce5c36007e3"
+      },
+      {
+         "path" : ".git/objects/ed/4a4ff5f9221a20e790d6a007f02ff6c222c137"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_weathered_cut_copper.png"
+      },
+      {
+         "path" : ".git/objects/f3/c8482e12d63eb52606609bf0a8bd1661ce230f"
+      },
+      {
+         "path" : ".git/objects/f5/a233642cb7524bd45f06267789a0f3f758a8a9"
+      },
+      {
+         "path" : ".git/objects/f9/056fe315739e5e9ba08321f54d6dedbf2dbca2"
+      },
+      {
+         "path" : ".git/objects/f7/a48a0a2c3744c8e22e52afcaff643331a10e2a"
+      },
+      {
+         "path" : "textures/blocks/hopper_top_8.png"
+      },
+      {
+         "path" : ".git/objects/f8/d4d2387b7b47fc48c9fc49c58c9b3f76c355c5"
+      },
+      {
+         "path" : "entity/zombie.entity.json"
+      },
+      {
+         "path" : ".git/objects/f9/13183eba8ee79cc6321e4c1f75b1d1fbc3b41e"
+      },
+      {
+         "path" : ".git/objects/f9/712904db5504235b6fdf285c35e5bb2e4a077d"
+      },
+      {
+         "path" : "README.md"
+      },
+      {
+         "path" : ".git/objects/fa/ed7a9502c455534540d0810439a15fa94f0bb1"
+      },
+      {
+         "path" : ".git/objects/fc/e59c2f24b460d9a51206ff77b61dd024e1b45a"
+      },
+      {
+         "path" : ".git/objects/fe/ff6e1ca3e95eedef932b3fdca9c7f76c7c2ac4"
+      },
+      {
+         "path" : ".git/objects/ff/5c768bc60dde4e48e925b5e681c37d06121c40"
+      },
+      {
+         "path" : ".git/objects/ff/5edb4b0b43bbf8ef9c7e5534246a0d4a5e14a6"
+      },
+      {
+         "path" : "textures/entity/cat/blackcat.png"
+      },
+      {
+         "path" : ".git/objects/ff/dd9b3be648533199fb1d6c63ed59f591df9a1f"
+      },
+      {
+         "path" : ".git/ORIG_HEAD"
+      },
+      {
+         "path" : ".git/refs/heads/main"
+      },
+      {
+         "path" : "animations/conduit.animation.json"
+      },
+      {
+         "path" : "animations/crossbow.animation.json"
+      },
+      {
+         "path" : "entity/panda.entity.json"
+      },
+      {
+         "path" : "animations/player.animation.json"
+      },
+      {
+         "path" : "animations/trident.animation.json"
+      },
+      {
+         "path" : "attachables/bow.entity.json"
+      },
+      {
+         "path" : "attachables/conduit.entity.json"
+      },
+      {
+         "path" : "attachables/flower_pot.entity.json"
+      },
+      {
+         "path" : "contents.json"
+      },
+      {
+         "path" : "attachables/trident.entity.json"
+      },
+      {
+         "path" : "textures/items/wood_axe.png"
+      },
+      {
+         "path" : "entity/creeper.entity.json"
+      },
+      {
+         "path" : "textures/items/carrot_on_a_stick.png"
+      },
+      {
+         "path" : "entity/pig.entity.json"
+      },
+      {
+         "path" : "manifest.json"
+      },
+      {
+         "path" : "models/entity/conduit.geo.json"
+      },
+      {
+         "path" : "models/entity/offhand_slot.json"
+      },
+      {
+         "path" : "models/entity/shield.geo.json"
+      },
+      {
+         "path" : "models/entity/shieldsmall.geo.json"
+      },
+      {
+         "path" : "player_firstperson.animation.json"
+      },
+      {
+         "path" : "textures/blocks/hopper_top_3.png"
+      },
+      {
+         "path" : "render_controllers/bow.render_controllers.json"
+      },
+      {
+         "path" : "textures/.DS_Store"
+      },
+      {
+         "path" : "textures/blocks/cauldron.png"
+      },
+      {
+         "path" : "textures/blocks/hopper_top.png"
+      },
+      {
+         "path" : "textures/blocks/hopper_top_11.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_copper_block.png"
+      },
+      {
+         "path" : "textures/blocks/hopper_top_13.png"
+      },
+      {
+         "path" : "textures/blocks/hopper_top_2.png"
+      },
+      {
+         "path" : "textures/blocks/infested/cobblestone.png"
+      },
+      {
+         "path" : "textures/entity/villager2/biomes/biome_snow.png"
+      },
+      {
+         "path" : "textures/blocks/infested/deepslate.png"
+      },
+      {
+         "path" : "textures/blocks/infested/deepslate_top.png"
+      },
+      {
+         "path" : "textures/blocks/infested/mossy_stone_bricks.png"
+      },
+      {
+         "path" : "textures/blocks/infested/stone.png"
+      },
+      {
+         "path" : "textures/blocks/observer_side.png"
+      },
+      {
+         "path" : "textures/blocks/observer_top.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_copper_double1.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_copper_stairs2.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_exposed_copper_double1.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_exposed_copper_stairs1.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_exposed_copper_stairs2.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_oxidized_copper_stairs2.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_oxidized_cut_copper.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_weathered_copper_stairs1.png"
+      },
+      {
+         "path" : "textures/blocks/waxed/waxed_weathered_copper_stairs2.png"
+      },
+      {
+         "path" : "textures/entity/blaze.tga"
+      },
+      {
+         "path" : "textures/items/bow_pulling_1.png"
+      },
+      {
+         "path" : "textures/entity/cat/allblackcat.png"
+      },
+      {
+         "path" : "textures/entity/cat/jellie.png"
+      },
+      {
+         "path" : "textures/entity/cat/redtabby.png"
+      },
+      {
+         "path" : "textures/ui/icon_armor.png"
+      },
+      {
+         "path" : "textures/entity/cat/siamese.png"
+      },
+      {
+         "path" : "textures/entity/cat/tabby.png"
+      },
+      {
+         "path" : "textures/entity/conduit.png"
+      },
+      {
+         "path" : "textures/entity/pistonarm/pistonArmSticky.png"
+      },
+      {
+         "path" : "textures/entity/shield.png"
+      },
+      {
+         "path" : "textures/entity/shieldsmall.png"
+      },
+      {
+         "path" : "textures/entity/villager2/biomes/biome_desert.png"
+      },
+      {
+         "path" : "textures/entity/villager2/biomes/biome_jungle.png"
+      },
+      {
+         "path" : "textures/entity/villager2/biomes/biome_swamp.png"
+      },
+      {
+         "path" : "textures/entity/villager2/professions/cleric.tga"
+      },
+      {
+         "path" : "textures/entity/villager2/professions/fletcher.tga"
+      },
+      {
+         "path" : "textures/entity/villager2/professions/leatherworker.tga"
+      },
+      {
+         "path" : "textures/texture_list.json"
+      },
+      {
+         "path" : "textures/entity/villager2/professions/toolsmith.tga"
+      },
+      {
+         "path" : "textures/flipbook_textures.json"
+      },
+      {
+         "path" : "textures/items/.DS_Store"
+      },
+      {
+         "path" : "textures/items/book_enchanted.png"
+      },
+      {
+         "path" : "textures/items/bow_pulling_0.png"
+      },
+      {
+         "path" : "textures/items/cauldron.png"
+      },
+      {
+         "path" : "textures/items/crossbow_arrow.png"
+      },
+      {
+         "path" : "textures/items/crossbow_firework.png"
+      },
+      {
+         "path" : "textures/items/crossbow_pulling_2.png"
+      },
+      {
+         "path" : "textures/items/diamond_hoe.png"
+      },
+      {
+         "path" : "textures/items/diamond_pickaxe.png"
+      },
+      {
+         "path" : "textures/items/diamond_sword.png"
+      },
+      {
+         "path" : "textures/items/experience_bottle.png"
+      },
+      {
+         "path" : "textures/items/fishing_rod_cast.png"
+      },
+      {
+         "path" : "textures/items/fishing_rod_uncast.png"
+      },
+      {
+         "path" : "textures/items/flint_and_steel.png"
+      },
+      {
+         "path" : "textures/items/gold_hoe.png"
+      },
+      {
+         "path" : "textures/items/gold_pickaxe.png"
+      },
+      {
+         "path" : "textures/items/gold_shovel.png"
+      },
+      {
+         "path" : "textures/items/iron_pickaxe.png"
+      },
+      {
+         "path" : "textures/items/iron_shovel.png"
+      },
+      {
+         "path" : "textures/items/iron_sword.png"
+      },
+      {
+         "path" : "textures/items/netherite_axe.png"
+      },
+      {
+         "path" : "textures/items/netherite_hoe.png"
+      },
+      {
+         "path" : "textures/items/netherite_shovel.png"
+      },
+      {
+         "path" : "textures/items/netherite_sword.png"
+      },
+      {
+         "path" : "textures/items/shears.png"
+      },
+      {
+         "path" : "textures/ui/icon_recipe_equipment.png"
+      },
+      {
+         "path" : "textures/items/stone_pickaxe.png"
+      },
+      {
+         "path" : "textures/items/stone_shovel.png"
+      },
+      {
+         "path" : "textures/items/warped_fungus_on_a_stick.png"
+      },
+      {
+         "path" : "textures/items/wood_pickaxe.png"
+      },
+      {
+         "path" : "textures/items/wood_shovel.png"
+      },
+      {
+         "path" : "textures/items/wood_sword.png"
+      },
+      {
+         "path" : "textures/misc/enchanted_item_glint.png"
+      },
+      {
+         "path" : "textures/misc/pumpkinblur.png"
+      },
+      {
+         "path" : "textures/terrain_texture.json"
+      },
+      {
+         "path" : "textures/ui/bottle_empty.png"
+      },
+      {
+         "path" : "textures/ui/empty.png"
+      },
+      {
+         "path" : "textures/ui/offhand_slot.png"
+      },
+      {
+         "path" : "textures/ui/wither_heart_half.png"
+      },
+      {
+         "path" : "ui/hud_screen.json"
+      },
+      {
+         "path" : "ui/inventory_screen.json"
+      },
+      {
+         "path" : "ui/settings_sections/settings_common.json"
+      }
+   ],
+   "version" : 1
+}

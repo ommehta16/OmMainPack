@@ -1,5 +1,5 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.8.0",
   "animations": {
     "animation.cauldron.wield_main_hand_first_person": {
       "loop": true,

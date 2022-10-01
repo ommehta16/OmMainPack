@@ -1,5 +1,5 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.8.0",
   "animations": {
     "animation.flower_pot.wield_main_hand_first_person": {
       "loop": true,
@@ -16,7 +16,7 @@
         "flower_pot": {
           "position": [ 1, 2, -9 ],
           "rotation": [ 0.0, 45.0, 0.0 ],
-          "scale": [0.7, 0.7, 0.7]
+          "scale": 0.7
         }
       }
     }

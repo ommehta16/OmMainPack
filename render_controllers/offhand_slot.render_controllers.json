@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.bow": {
+      "arrays": {
+        "textures": ["Texture.default"],
+        "geometries": ["Geometry.default"]
+      },
+      "geometry": "geometry.default",
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ],
+      "textures": ["texture.default"],
+      "part_visibility": [
+        {"offhand_slot": "c.is_first_person"}
+      ]
+    }
+  }
+}

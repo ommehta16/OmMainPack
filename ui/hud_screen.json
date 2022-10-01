@@ -1,0 +1,8 @@
+{
+  "namespace":"hud",
+  "vignette_renderer": {
+	  "type": "custom",
+	  "renderer": "ui_holo_cursor",
+	  "layer": 4
+	}
+}

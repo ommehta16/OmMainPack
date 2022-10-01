@@ -13,7 +13,8 @@
 						{
 							"hold" : "q.item_is_charged"
 						}
-					]
+					],
+					"blend_transition": 0.1
 				},
 				"default" : {
 					"transitions" : [
@@ -23,7 +24,8 @@
 						{
 							"charge" : "q.item_remaining_use_duration > 0.0"
 						}
-					]
+					],
+					"blend_transition": 0.1
 				},
 				"hold" : {
 					"animations" : [ "crossbow_hold" ],
@@ -34,7 +36,8 @@
 						{
 							"charge" : "q.item_remaining_use_duration > 0.0"
 						}
-					]
+					],
+					"blend_transition": 0.1
 				}
 			}
 		},
@@ -44,7 +47,7 @@
 				"default" : {
 					"animations" : [ 
 						{
-							"first_person_attack_rotation" : "q.is_item_equipped('main_hand') <= 0 || q.can_damage_nearby_mobs > 0 && q.get_equipped_item_name != 'filled_map'"
+							"first_person_attack_rotation" : "q.is_item_equipped('main_hand') <= 0 || (q.can_damage_nearby_mobs > 0 && q.get_equipped_item_name != 'filled_map')"
 						},
 						{
 							"first_person_attack_rotation_item" : "q.is_item_equipped('main_hand') > 0 && !q.can_damage_nearby_mobs > 0 && q.item_remaining_use_duration < 0.0001"
@@ -82,10 +85,10 @@
 				"one_hand" : {
 					"animations" : [
 						{
-							"first_person_map_hold_main_hand" : "q.get_equipped_item_name(0, 1) == 'filled_map'"
+							"first_person_map_hold_main_hand" : "v.is_map_right = q.get_equipped_item_name(0, 1) == 'filled_map'; return v.is_map_right;"
 						},
 						{
-							"first_person_map_hold_off_hand" : "q.get_equipped_item_name(1) == 'filled_map' && (q.get_equipped_item_name == 'bow' ? !(v.item_use_normalized > 0 && v.item_use_normalized < 1.0) : 1.0)"
+							"first_person_map_hold_off_hand" : "v.is_map_left = q.get_equipped_item_name(1) == 'filled_map' && !q.item_is_charged(0); return v.is_map_left;"
 						}
 					],
 					"transitions" : [
@@ -121,23 +124,19 @@
 						},
 						"first_person_base_pose",
 						{
-							"first_person_empty_hand" : "q.get_equipped_item_name(0, 1) != 'filled_map'"
+							"first_person_empty_hand" : "q.get_equipped_item_name != 'filled_map'"
 						},
 						{
-							"first_person_walk" : "v.bob_animation"
+							"first_person_map_controller" : "(q.get_equipped_item_name == 'filled_map' || q.get_equipped_item_name(1) == 'filled_map')"
 						},
 						{
-							"first_person_map_controller" : "(q.get_equipped_item_name(0, 1) == 'filled_map' || q.get_equipped_item_name(1) == 'filled_map')"
-						},
-						{
-							"first_person_crossbow_equipped": "q.get_equipped_item_name == 'crossbow' && (v.item_use_normalized > 0 && v.item_use_normalized < 1.0) && !q.can_damage_nearby_mobs"
+							"first_person_crossbow_equipped": "q.get_equipped_item_name == 'crossbow' && (v.item_use_normalized > 0 && v.item_use_normalized < 1.0)"
 						},
 						{
 							"first_person_crossbow_hold": "q.get_equipped_item_name == 'crossbow' && q.item_is_charged"
 						},
-						{
-							"first_person_breathing_bob": "v.attack_time <= 0.0"
-						}
+						"first_person_breathing_bob",
+						"first_person_walk"
 					],
 					"transitions" : [
 						{
@@ -149,6 +148,12 @@
 						{
 							"third_person" : "!v.is_first_person"
 						}
+					],
+					"on_exit": [
+						"v.first_person = 0;"
+					],
+					"on_entry": [
+						"v.first_person = 1; v.is_map_right = 0; v.is_map_left = 0; v.is_map_middle = 0;"
 					]
 				},
 				"map_player" : {
@@ -193,7 +198,9 @@
 						{
 							"riding.legs" : "q.is_riding"
 						},
-						"holding",
+						{
+							"holding": "!q.is_riding && !q.is_sleeping"
+						},
 						{
 							"brandish_spear" : "v.is_brandishing_spear"
 						},
@@ -219,7 +226,7 @@
 							"swimming.legs" : "v.swim_amount > 0.0"
 						},
 						{
-							"use_item_progress" : "(( v.use_item_interval_progress > 0.0 ) || ( v.use_item_startup_progress > 0.0 ) && !v.is_brandishing_spear && !v.is_holding_spyglass && !q.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bow', 'minecraft:fishing_rod'))"
+							"use_item_progress" : "(( v.use_item_interval_progress > 0.0 ) || ( v.use_item_startup_progress > 0.0 ) && !v.is_brandishing_spear && !v.is_holding_spyglass && !q.is_item_name_any('slot.weapon.mainhand', 0, 'minecraft:bow', 'minecraft:fishing_rod', 'minecraft:goat_horn'))"
 						},
 						{
 							"sleeping" : "q.is_sleeping && q.is_alive"
@@ -231,16 +238,19 @@
 							"attack.rotations" : "v.attack_time >= 0.0"
 						},
 						{
-							"shield_block_main_hand" : "q.blocking && q.get_equipped_item_name(1) != 'shield' && q.get_equipped_item_name == 'shield'"
+							"shield_block_main_hand" : "q.get_equipped_item_name(1) != 'shield' && q.get_equipped_item_name == 'shield'"
 						},
 						{
-							"shield_block_off_hand" : "q.blocking && q.get_equipped_item_name(1) == 'shield'"
+							"shield_block_off_hand" : "q.get_equipped_item_name(1) == 'shield'"
 						},
 						{
 							"crossbow_controller" : "q.get_equipped_item_name == 'crossbow'"
 						},
 						{
 							"third_person_bow_equipped" : "q.get_equipped_item_name == 'bow' && (v.item_use_normalized > 0 && v.item_use_normalized < 1.0)"
+						},
+						{
+							"tooting_goat_horn": "variable.is_tooting_goat_horn"
 						}
 					],
 					"transitions" : [

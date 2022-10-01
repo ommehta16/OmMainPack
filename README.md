@@ -1,6 +1,6 @@
 *Attributions:*
  - Using(edited) version of third person holding animations from Agent Mindstorm
- 
+ - Using(edited) version of third person running/walking animation from ambient
 *Changelog:*
  - Made pack
 **1.0.1 and before:**
@@ -79,3 +79,25 @@
  - Fixed bugs with the third person swimming animation
  - Changed the positions of data-driven items when in riptide
  - Many other things that I probably forgot
+ **2.1:**
+ - Uploaded to github
+**2.2:**
+ - Fixed bow animation AGAIN
+ - Fixed empty hand animation AGAIN
+ - Fixed trident animation AGAIN
+ - Removed 3D boats
+ - Updated hit animation to more closely follow ambient's hit animation from Java 1.7 animations
+ - Moved the left-handed subpack to its own seperate pack, that can be put on top of this
+ - Removed the small shield model
+ - The shield is now normal size, but is lower in first person
+ - The 3rd person shield animation has transitions in and out now
+ - Updated spyglass positioning
+ - The left hand no longer appears when riding
+ - Changed the first person crossbow charging animation
+ - Added/improved transitions into the first person crossbow, trident, bow, and shield animations
+ - Implemented running animation from Java 1.7 animations by ambient
+ - Fixed the hand positioning while holding a map
+ - Fixed the enchantment glint for more items
+ - Made the 3rd person holding animation more similar to Java edition
+ - Made certain items no longer float over the player's hand
+ - Conduits are now data-driven, so don't appear way off the right of the screen

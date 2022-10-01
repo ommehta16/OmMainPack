@@ -1,0 +1,63 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bed_hand",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bed",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)"
+				},
+				{
+					"name": "leg2",
+					"parent": "bed",
+					"pivot": [4.5, 1.5, -3.5],
+					"cubes": [
+						{"origin": [-8, 2, -3], "size": [3, 3, 3], "pivot": [0, 5, -5], "rotation": [-90, 0, 0], "uv": [0, 44]}
+					]
+				},
+				{
+					"name": "leg3",
+					"parent": "bed",
+					"pivot": [17.5, 1.5, -3.5],
+					"cubes": [
+						{"origin": [5, 2, -3], "size": [3, 3, 3], "pivot": [0, 5, -5], "rotation": [-90, 0, 0], "uv": [12, 44]}
+					]
+				},
+				{
+					"name": "leg0",
+					"parent": "bed",
+					"pivot": [4.5, 1.5, 25.5],
+					"cubes": [
+						{"origin": [-8, 31, -3], "size": [3, 3, 3], "pivot": [0, 5, -5], "rotation": [-90, 0, 0], "uv": [0, 38]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "bed",
+					"pivot": [17.5, 1.5, 25.5],
+					"cubes": [
+						{"origin": [5, 31, -3], "size": [3, 3, 3], "pivot": [0, 5, -5], "rotation": [-90, 0, 0], "uv": [12, 38]}
+					]
+				},
+				{
+					"name": "bed2",
+					"parent": "bed",
+					"pivot": [0, 6, 11],
+					"cubes": [
+						{"origin": [-8, 2, -9], "size": [16, 32, 6], "pivot": [-11, 5, -5], "rotation": [-90, 0, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

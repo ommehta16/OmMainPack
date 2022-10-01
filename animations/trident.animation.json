@@ -1,0 +1,140 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.trident.wield_first_person": {
+      "loop": true,
+      "bones": {
+        "pole": {
+          "position": [
+            -7.0,
+            -6.5,
+            -1.0
+          ],
+          "rotation": [
+            152.0,
+            -6,
+            25.0 
+          ]
+        }
+      }
+    },
+    "animation.trident.wield_first_person_offhand": {
+      "loop": true,
+      "bones": {
+        "pole": {
+          "position": [
+            -20,
+            10.0,
+            16.0
+          ],
+          "rotation": [
+            -30,
+            85.0,
+            -30
+          ],
+          "scale": 1.1
+        }
+      }
+    },
+    /*"animation.trident.wield_first_person_raise": {
+      "loop": true,
+      "bones": {
+        "pole": {
+          "position": [
+            "7 + (variable.charge_amount <= 0.25 ? math.lerp(0.0, -4.5, variable.charge_amount * 4.0) : -4.5) + (variable.charge_amount > 0.25 ? math.lerp(0.0, -4.0, (variable.charge_amount - 0.25) * 1.33) : 0.0)",
+            "-1.5 + (variable.charge_amount <= 0.25 ? math.lerp(0.0, -3.0, variable.charge_amount * 4.0) : -3.0) + (variable.charge_amount > 0.25 ? math.lerp(0.0, 3.0, (variable.charge_amount - 0.25) * 1.33) : 0.0)",
+            "9 + (variable.charge_amount <= 0.25 ? math.lerp(0.0, -16.5, variable.charge_amount * 4.0) : -16.5) + (variable.charge_amount > 0.25 ? math.lerp(0.0, 0.0, (variable.charge_amount - 0.25) * 1.33) : 0.0)"
+          ],
+          "rotation": [
+            30,
+            -22.5,
+            -65
+          ],
+          "scale": 1.2
+        }
+      }
+    },*/
+    "animation.trident.wield_first_person_raise": {
+      "loop": true,
+      "anim_time_update": "v.charge_amount",
+      "bones": {
+        "pole": {
+          "position": {
+            "0.0": [0,0,0],
+            "0.125": [3,-0.5,-7.5],
+            "1.0": [-5,-1.5,-7.5]
+          },
+          "rotation": {
+            "0.0": [0,0,0],
+            "0.125": [30,-22.5,-65]
+          }
+        }
+      }
+    },
+    "animation.trident.wield_first_person_raise_shake": {
+      "loop": true,
+      "bones": {
+        "pole": {
+          "position": [
+            "(variable.charge_amount > 0.9 ? math.sin((query.main_hand_item_use_duration - query.frame_alpha + 1.0) * 90) * 0.05 : 0)",
+            "(variable.charge_amount > 0.9 ? math.sin((query.main_hand_item_use_duration - query.frame_alpha + 1.0) * 90) * 0.05 : 0) + (variable.charge_amount >= 1.0 ? math.sin(q.life_time * 900.0) * 0.05 : 0.0)",
+            "(variable.charge_amount > 0.9 ? math.sin((query.main_hand_item_use_duration - query.frame_alpha + 1.0) * 90) * 0.05 : 0)"
+          ]
+        }
+      }
+    },
+    "animation.trident.wield_first_person_riptide": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "pole": {
+          "position": [
+            -3.5,
+            -5,
+            -10
+          ],
+          "rotation": [
+            182,
+            60,
+            -36
+          ],
+          "scale": 1.32
+        }
+      }
+    },
+    "animation.trident.wield_third_person": {
+      "loop": true,
+      "bones": {
+        "pole": {
+          "position": [
+            0.75,
+            -2.5,
+            -10.5
+          ],
+          "rotation": [
+            97.0,
+            -1.5,
+            -49.0
+          ]
+        }
+      }
+    },
+    "animation.trident.wield_third_person_raise": {
+      "loop": true,
+      "bones": {
+        "pole": {
+          "position": [
+            -0.7,
+            0.5,
+            17.5
+          ],
+          "rotation": [
+            -7,
+            180.0,
+            -40.0
+          ]
+        }
+      }
+    }
+  }
+}
