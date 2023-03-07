@@ -1,3 +1,5 @@
+**Minecraft Resource Pack, offering some small improvements**
+
 *Attributions:*
  - Using(edited) version of third person holding animations from Agent Mindstorm
  - Using(edited) version of third person running/walking animation from ambient
